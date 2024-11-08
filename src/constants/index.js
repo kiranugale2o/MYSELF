@@ -21,6 +21,7 @@ import {
   carrent,
   jobit,
   tripguide,
+  wanderer_social,
   threejs,
 } from "../assets";
 
@@ -129,6 +130,28 @@ const Social = [
 ];
 
 const projects = [
+    {
+    name: "Wanderer Social",
+    description:
+      "Advance Version of Wanderer Application where you can post you experience, interact with new people with the same time you can use wanderer application .",
+    tags: [
+      {
+        name: "NextJS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+       {
+        name: "ClerkJS",
+        color: "blue-text-gradient",
+      },
+        ],
+    image: wanderer_social,
+    source_code_link: "https://github.com/omkar2711/Wanderer_social",
+    live_link:"https://wanderer-social-sg34.vercel.app/",
+  },
   {
     name: "SIID",
     description:
