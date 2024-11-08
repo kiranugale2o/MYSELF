@@ -32,6 +32,7 @@ import upgrad from "./company/upgrad.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import wanderer_social from "./wanderer_social.png";
 
 export {
   logo,
@@ -65,4 +66,5 @@ export {
   jobit,
   tripguide,
   upgrad,
+  wanderer_social,
 };
