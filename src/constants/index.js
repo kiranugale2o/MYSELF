@@ -152,28 +152,7 @@ const projects = [
     source_code_link: "https://github.com/omkar2711/Wanderer_social",
     live_link:"https://wanderer-social-sg34.vercel.app/",
   },
-  {
-    name: "SIID",
-    description:
-      "Web-based platform introducing the SIID Device's standout features, providing a convenient and efficient solution for road saftey    .",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/omkar2711/SIID_React_Website",
-    live_link:"https://new1-omkar2711.vercel.app/",
-  },
+
   {
     name: "Wanderer",
     description:
@@ -195,6 +174,28 @@ const projects = [
     image: jobit,
     source_code_link: "https://github.com/omkar2711/Wanderer",
     live_link:"https://wanderer-livid-chi.vercel.app/",
+  },
+    {
+    name: "SIID",
+    description:
+      "Web-based platform introducing the SIID Device's standout features, providing a convenient and efficient solution for road saftey    .",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: carrent,
+    source_code_link: "https://github.com/omkar2711/SIID_React_Website",
+    live_link:"https://new1-omkar2711.vercel.app/",
   },
   // {
   //   name: "Drum kit",
