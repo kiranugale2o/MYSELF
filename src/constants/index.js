@@ -196,29 +196,29 @@ const projects = [
     source_code_link: "https://github.com/omkar2711/Wanderer",
     live_link:"https://wanderer-livid-chi.vercel.app/",
   },
-  {
-    name: "Drum kit",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "JQuery",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "JavaScript",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
+  // {
+  //   name: "Drum kit",
+  //   description:
+  //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+  //   tags: [
+  //     {
+  //       name: "JQuery",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "JavaScript",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "pink-text-gradient",
+  //     },
       
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/omkar2711/Drum_Kit",
-    live_link:"https://omkar2711.github.io/Drum_Kit/",
-  },
+  //   ],
+  //   image: tripguide,
+  //   source_code_link: "https://github.com/omkar2711/Drum_Kit",
+  //   live_link:"https://omkar2711.github.io/Drum_Kit/",
+  // },
 ];
 
 const experiences = [
