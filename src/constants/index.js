@@ -54,7 +54,7 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Content Creator",
+    title: "App Developer",
     icon: backend,
   },
   {
@@ -109,31 +109,32 @@ const technologies = [
 const Social = [
   {
     handle:
-      "omkar2711",
-    handle_link:"https://github.com/omkar2711",
+      "kiranugale2o",
+    handle_link:"https://github.com/kiranugale2o",
     name: "Github",
   
     image: "https://avatars.githubusercontent.com/u/75433632?v=4",
   },
   {
     handle:
-      "Omkar Bharitkar",
-    handle_link:"https://www.linkedin.com/in/omkar-bharitkar-88a912200/",
+      "Kiran Ugale",
+    handle_link:"https://www.linkedin.com/in/kiranpatilugale/",
     name: "LinkedIn",
     image: "https://avatars.githubusercontent.com/u/75433632?v=4",  },
   {
     handle:
-      "_o_m_k_a_r_2711",
-    handle_link:"https://www.instagram.com/_o_m_k_a_r_2711/",
+      "_kiranpatil_45",
+    handle_link:"https://www.instagram.com/_kiranpatil_45/",
     name: "Instagram",
     image: "https://avatars.githubusercontent.com/u/75433632?v=4",  },
 ];
 
 const projects = [
+  
     {
-    name: "Wanderer Social",
-    description:
-      "Advance Version of Wanderer Application where you can post you experience, interact with new people with the same time you can use wanderer application .",
+    name: "Job Portal",
+    description:" This project is a feature-rich Job Portal application built using Next.js. The application includes a variety of functionalities such as AI integration to assist users in job searches, user authentication, email verification, and more. It’s designed to cater to both job seekers and recruiters, providing an interactive and secure platform for job postings and applications."
+    ,  
     tags: [
       {
         name: "NextJS",
@@ -149,37 +150,36 @@ const projects = [
       },
         ],
     image: wanderer_social,
-    source_code_link: "https://github.com/omkar2711/Wanderer_social",
-    live_link:"https://wanderer-social-sg34.vercel.app/",
+    source_code_link: "https://github.com/kiranugale2o/jobportal",
+    live_link:"https://jobportal-beta-indol.vercel.app/",
   },
 
   {
-    name: "Wanderer",
+    name: "My Imager",
     description:
-      "Web application simplifying the search for nearby attractions, Hotels, Resturants. Discover hidden gems and popular landmarks seamlessly through its user-friendly interface, redefining how you experience new places.",
+    "MyImager is a powerful image management platform built with Next.js for the frontend and Express.js for the backend, integrating Firebase for storage and various other libraries to provide enhanced features like authentication, charts, and more.", 
     tags: [
       {
-        name: "react",
+        name: "NextJS",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "mongodb",
         color: "green-text-gradient",
       },
-      {
-        name: "MiUi",
-        color: "pink-text-gradient",
+       {
+        name: "ClerkJS",
+        color: "blue-text-gradient",
       },
-    ],
+        ],
     image: jobit,
-    source_code_link: "https://github.com/omkar2711/Wanderer",
-    live_link:"https://wanderer-livid-chi.vercel.app/",
+    source_code_link: "https://github.com/kiranugale2o/my_imager_front",
+    live_link:"https://myimager.cloud",
   },
     {
-    name: "SIID",
-    description:
-      "Web-based platform introducing the SIID Device's standout features, providing a convenient and efficient solution for road saftey    .",
-    tags: [
+    name: "College Event Management",
+    description:"Welcome to the College Event Management Website! This application is designed to help manage and organize college events efficiently. Built with Next.js, it provides a user-friendly interface for students and event organizers.    "
+ ,         tags: [
       {
         name: "react",
         color: "blue-text-gradient",
@@ -194,8 +194,8 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/omkar2711/SIID_React_Website",
-    live_link:"https://new1-omkar2711.vercel.app/",
+    source_code_link: "https://github.com/kiranugale2o/college_Event_management",
+    live_link:"https://event-wine.vercel.app/",
   },
   // {
   //   name: "Drum kit",
@@ -223,12 +223,13 @@ const projects = [
 ];
 
 const experiences = [
+
   {
-    title: "Software Developer Engineer Intern",
-    company_name: "SyncSense",
-    icon: syncsense,
-    iconBg: "#131313",
-    date: "Oct 2023 - March 2024",
+    title: "React Native Developer",
+    company_name: "Reparv",
+    icon: tesla,
+    iconBg: "#E6DEDD",
+    date: "Jan 2025 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -236,44 +237,7 @@ const experiences = [
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
-  // {
-  //   title: "React Native Developer",
-  //   company_name: "Tesla",
-  //   icon: tesla,
-  //   iconBg: "#E6DEDD",
-  //   date: "Jan 2021 - Feb 2022",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
-  {
-    title: "Technical Content Strategist Intern",
-    company_name: "upGrad",
-    icon: upgrad,
-    iconBg: "#e62d3e",
-    date: "March 2024 - July 2024",
-    points: [
-      "Directed content development for a full stack development cohort, with a strong emphasis on practical skills.",
-      "Collaborated closely with industry experts to ensure the curriculum met current and evolving professional standards.",
-      "Utilized Java for implementing data structures and employed the MERN Stack for full-stack development projects.",
-    ],
-  },
-  {
-    title: "Associate - Content",
-    company_name: "upGrad",
-    icon: upgrad,
-    iconBg: "#e62d3e",
-    date: "July 2024 - Present",
-    points: [
-      "Assisted senior instructors in teaching 80+ students across 4 batches in Full Stack Development.",
-      "Created curriculum, incorporating industry insights and practical case studies to enhance learning.",
-      "Led doubt-solving sessions and provided personal guidance to support learners in understanding key concepts.",
-      "Designed capstone web development projects to give students hands-on experience with real-world applications.",
-    ],
-  },
+ 
 ];
 
 export { services, technologies,experiences, Social, projects };

@@ -49,7 +49,7 @@ const About = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          I am Omkar Bharitkar, an undergraduate at IIIT Pune and a full-stack web developer,
+          I am Kiran Ugale, an postgraduate at GH Raisoni Skill tech Pune and a full-stack web developer,
           IoT enthusiast, tech-savvy individual, and a passionate traveler.<br />
           Eager to use my skills and knowledge in 
           web and software development to make a meaningful contribution.
@@ -70,7 +70,7 @@ const About = () => {
           <motion.button
             className="bg-tertiary text-secondary px-10 py-5 rounded-[20px]"
             onClick={() => {
-              window.location.href = 'https://drive.google.com/file/d/1uqATk5cr6AzjJA8edUZQcS9Gr2uzpIXe/view'; 
+              window.location.href = 'https://drive.google.com/file/d/165G8Eu-1e_YEjAejtp7HRHTg3qdwkTdD/view?usp=drivesdk'; 
             }}
           >
             Resume
